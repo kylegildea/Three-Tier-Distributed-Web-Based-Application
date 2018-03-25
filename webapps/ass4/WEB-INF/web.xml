@@ -1,0 +1,39 @@
+<web-app>
+
+   <!-- General description of your Web application -->
+   <display-name>
+      CNT 4714 Spring 2017 Servlet Home Page
+   </display-name>
+
+   <description>
+      This is the Web application in which we 
+      demonstrate our JSP and Servlet examples.
+   </description>
+
+   <!-- Servlet definitions -->
+	
+    <servlet>
+		<servlet-name>partsdatabase</servlet-name>
+
+		<description>
+	 	    Parts Database for Assignment4
+		</description>
+
+		<servlet-class>
+		   PartsServlet
+		</servlet-class>
+   </servlet>
+
+     <!-- Servlet mappings -->
+   
+   
+   
+   
+   
+   <servlet-mapping>
+      <servlet-name>partsdatabase</servlet-name>
+      <url-pattern>/partsdatabase</url-pattern>
+   </servlet-mapping>
+
+</web-app>
+
